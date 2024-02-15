@@ -1,17 +1,26 @@
+
+:root{
+    --darkblue: #0A2463;
+    --mediumblue: #0F1C39;
+    --royalblue: #506FB8;
+    --blue: #88A3E3;
+    --lightblue: #C3D5FF;
+}
+
 a{
-    
     margin: auto;
     font: bold 15px Arial;
     text-decoration: none;
-    
+    color: whitesmoke;
+    text-align: justify;
 }
 
 h2{
-    color: lightsteelblue;
-    -webkit-text-stroke: .5px black;
+    color: whitesmoke;
+    text-align: center;
 }
 menu{
-    color: rgb(58, 58, 253);
+    background-color: var(--darkblue);
     text-align:center;
     display: flex;
     align-items:center;
@@ -19,27 +28,28 @@ menu{
 }
 h1{
     text-align: center;
-    color: whitesmoke;
+    color: var(--darkblue);
     margin-top: 0px;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 body{
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
 }
 
 div{
-    background-color: whitesmoke;
+    background-color: var(--blue);
     border-radius: 10px;
     width: 75%;
     height: auto;
     margin: auto;
     margin-top: 25px;
-    text-align: center;
+    text-align: justify;
 }
  
 p{
     margin-left: 10px;
-
+    color: black;
 }
+
