@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Great+Vibes&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 :root{
     --darkblue: #0F1C39;
     --mediumblue: #0A2463;
@@ -9,47 +11,32 @@
 }
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', 'sans-serif';
 }
 
 a{
-    margin: auto;
-    font: bold 15px Arial;
+    display: inline-block;
     text-decoration: none;
     text-align: justify;
     text-shadow: 1px 1px 1px var(--darkblue);
     color: var(--lightblue);
-}
-
-h2{
-    color: whitesmoke;
-    text-align: center;
-    
-}
-
-menu{
-    width: 75%;
-    background-color: var(--darkblue);
-}
-
-h1{
-    text-align: center;
-    color: var(--darkblue);
-    text-shadow: 1px 1px 1px var(--mediumblue);
+    font-size: 15px;
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--royalblue), var(--lightblue));
+    background-image: linear-gradient(to bottom, var(--royalblue), var(--lightblue), whitesmoke, white);
     background-attachment: fixed;
-
+    margin: 0px;
 }
 
 main{
     background-color: white;
     border-radius: 10px;
     width: 75%;
-    text-align: center;
     box-shadow: 5px 5px 3px var(--mediumblue);
+
+    margin: 20px auto;
+    padding: 5px;
 }
 
 div{
@@ -58,9 +45,56 @@ div{
     width: 75%;
     text-align: center;
 }
- 
+
+h1{
+    color: var(--darkblue);
+    text-shadow: 1px 1px 1px var(--mediumblue);
+}
+
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav{
+    width: 75%;
+    background-color: var(--darkblue);
+    margin: auto;
+}
+
+nav > a:hover{
+    background-color: var(--lightblue);
+    color: var(--mediumblue);
+    padding: 7px;
+}
+
 p{
+    text-indent: 30px;
     text-align: justify;
     color: black;
+}
+
+li{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--darkblue);
+    color: white;
+    padding: 3px;
+}
+
+nav > a{
+   margin: auto;
+   display: inline-block;
+   padding: 5px;
+}
+
+
+.principal{
+    font-family: 'Great Vibes';
+    margin-left: 15px;
 }
 
