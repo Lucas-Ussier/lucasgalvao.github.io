@@ -18,7 +18,6 @@ a{
     display: inline-block;
     text-decoration: none;
     text-align: justify;
-    text-shadow: 1px 1px 1px var(--darkblue);
     color: var(--lightblue);
     font-size: 15px;
 }
@@ -65,12 +64,15 @@ nav{
     text-indent: 10px;
 }
 
+a:hover{
+    text-decoration: underline;
+    color: var(--royalblue);
+}
 
 nav > a:hover{
     background-color: var(--lightblue);
     color: var(--mediumblue);
     padding: 7px;
-    text-decoration: underline;
 }
 
 p{
@@ -79,6 +81,9 @@ p{
     color: black;
     padding: 10px;
     margin: 10px;
+}
+strong{
+    color: var(--royalblue);
 }
 
 li{
@@ -103,5 +108,14 @@ nav > a{
     font-family: 'Great Vibes';
     font-size: 50px;
     text-align: center;
+}
+
+.underConstruction{
+    height: 312px;
+    max-width: 624px;
+    background-color: black;
+    background-image: url(https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg);
+    background-position: center center;
+    background-size: cover;
 }
 
