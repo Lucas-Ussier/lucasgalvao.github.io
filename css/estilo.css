@@ -24,7 +24,7 @@ a{
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--royalblue), var(--lightblue), whitesmoke, white);
+    background-image: linear-gradient(to bottom, var(--lightblue), whitesmoke, white);
     background-attachment: fixed;
     margin: 0px;
 }
@@ -34,7 +34,6 @@ main{
     border-radius: 10px;
     width: 75%;
     box-shadow: 5px 5px 3px var(--mediumblue);
-
     margin: 20px auto;
     padding: 5px;
 }
@@ -42,13 +41,14 @@ main{
 div{
     background-color: white;
     border-radius: 10px;
-    width: 75%;
-    text-align: center;
+    max-width: 75%;
 }
 
 h1{
     color: var(--darkblue);
     text-shadow: 1px 1px 1px var(--mediumblue);
+    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -58,21 +58,27 @@ h2{
 }
 
 nav{
-    width: 75%;
+    max-width: 75%;
     background-color: var(--darkblue);
     margin: auto;
+    border-radius: 15px;
+    text-indent: 10px;
 }
+
 
 nav > a:hover{
     background-color: var(--lightblue);
     color: var(--mediumblue);
     padding: 7px;
+    text-decoration: underline;
 }
 
 p{
     text-indent: 30px;
     text-align: justify;
     color: black;
+    padding: 10px;
+    margin: 10px;
 }
 
 li{
@@ -87,14 +93,15 @@ footer{
 }
 
 nav > a{
-   margin: auto;
-   display: inline-block;
    padding: 5px;
+   text-align: center;
+   display: inline-block;
 }
 
 
 .principal{
     font-family: 'Great Vibes';
-    margin-left: 15px;
+    font-size: 50px;
+    text-align: center;
 }
 
