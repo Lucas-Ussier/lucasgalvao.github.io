@@ -23,7 +23,7 @@ a{
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--lightblue), whitesmoke, white);
+    background-image: linear-gradient(to bottom, var(--blue), whitesmoke, white);
     background-attachment: fixed;
     margin: 0px;
 }
@@ -83,7 +83,7 @@ p{
     margin: 10px;
 }
 strong{
-    color: var(--royalblue);
+    color: var(--mediumblue);
 }
 
 li{
@@ -101,6 +101,11 @@ nav > a{
    padding: 5px;
    text-align: center;
    display: inline-block;
+}
+
+li a{
+    color: var(--royalblue);
+    font-weight: bold;
 }
 
 
