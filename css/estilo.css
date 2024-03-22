@@ -41,6 +41,7 @@ div{
     background-color: white;
     border-radius: 10px;
     max-width: 75%;
+    margin: auto;
 }
 
 h1{
@@ -50,18 +51,17 @@ h1{
     margin: 10px;
 }
 
-
-h2{
-    color: whitesmoke;
-    text-align: center;
-}
-
 nav{
     max-width: 75%;
     background-color: var(--darkblue);
     margin: auto;
     border-radius: 15px;
     text-indent: 10px;
+}
+
+ul{
+    margin: 10px;
+    padding-left: 50px;
 }
 
 a:hover{
@@ -80,14 +80,10 @@ p{
     text-align: justify;
     color: black;
     padding: 10px;
-    margin: 10px;
+    margin: 5px 10px;
 }
 strong{
     color: var(--mediumblue);
-}
-
-li{
-    text-align: left;
 }
 
 footer{
@@ -108,6 +104,10 @@ li a{
     font-weight: bold;
 }
 
+main a{
+    display: inline;
+}
+
 
 .principal{
     font-family: 'Great Vibes';
@@ -122,5 +122,12 @@ li a{
     background-image: url(https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg);
     background-position: center center;
     background-size: cover;
+}
+
+h2.historia{
+    text-align: center;
+    color: var(--mediumblue);
+    text-shadow: 2px 2px 0px var(--royalblue);
+    font-size: 2em;
 }
 
