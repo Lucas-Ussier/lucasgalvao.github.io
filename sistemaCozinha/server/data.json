@@ -1,0 +1,20 @@
+{
+  "pedidos": [
+    {
+      "mesa": 12,
+      "garcom": "Yuri",
+      "lanche": "combo",
+      "bebida": "guarana",
+      "obs": "Sem Queijo",
+      "id": 1
+    },
+    {
+      "mesa": 15,
+      "garcom": "Lucas",
+      "lanche": "combo",
+      "bebida": "guarana",
+      "obs": "Sem salada",
+      "id": 2
+    }
+  ]
+}
