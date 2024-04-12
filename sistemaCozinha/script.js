@@ -33,14 +33,14 @@ function enviarPedido(){
 }
 
 function getDados() {
-    fetch('../pedidos')
+    fetch('http://localhost:3000/pedidos')
       .then(response => response.json())
       .then(data => console.log(data))
       .catch(error => console.error(error))
   }
 
   function envioDados(dados){
-    fetch('../pedidos',{
+    fetch('http://localhost:3000/pedidos',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
