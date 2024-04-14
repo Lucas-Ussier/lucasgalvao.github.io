@@ -1,20 +1,36 @@
 {
   "pedidos": [
     {
-      "mesa": 12,
-      "garcom": "Yuri",
-      "lanche": "combo",
-      "bebida": "guarana",
-      "obs": "Sem Queijo",
-      "id": 1
-    },
-    {
-      "mesa": 15,
+      "mesa": 1,
       "garcom": "Lucas",
       "lanche": "combo",
       "bebida": "guarana",
       "obs": "Sem salada",
+      "id": 1
+    },
+    {
+      "mesa": 1,
+      "garcom": "Lucas",
+      "lanche": "combo",
+      "bebida": "sucoUva",
+      "obs": "Completo",
       "id": 2
+    },
+    {
+      "mesa": 2,
+      "garcom": "Luiza",
+      "lanche": "combo",
+      "bebida": "guarana",
+      "obs": "",
+      "id": 3
+    },
+    {
+      "mesa": 2,
+      "garcom": "Luiza",
+      "lanche": "lanche",
+      "bebida": "nenhuma",
+      "obs": "",
+      "id": 4
     }
   ]
 }

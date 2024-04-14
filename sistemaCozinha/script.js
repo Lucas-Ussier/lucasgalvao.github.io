@@ -21,11 +21,7 @@ function enviarPedido(){
         } 
     }
 
-    var url = "server/data.json"
-    var request = new XMLHttpRequest();
     var info = `{"mesa":${mesa.value}, "garcom": "${garcom.value}", "lanche": "${opcaoL}", "bebida": "${opcaoB}", "obs": "${obs.value}"}` 
-    //var info = `{"mesa": 1, "lanche": "combo", "bebida": "coca", "obs": "sem queijo"}` 
-
     var json = JSON.parse(info)
     console.log(json)
 
