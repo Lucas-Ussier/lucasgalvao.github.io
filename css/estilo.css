@@ -15,7 +15,6 @@
 }
 
 a{
-    display: inline-block;
     text-decoration: none;
     text-align: justify;
     color: var(--lightblue);
@@ -59,6 +58,7 @@ h2{
 }
 
 nav{
+    padding: 5px;
     max-width: 75%;
     background-color: var(--darkblue);
     margin: auto;
@@ -71,15 +71,20 @@ ul{
     padding-left: 50px;
 }
 
+section{
+    padding: 30px;
+}
+
 a:hover{
     text-decoration: underline;
     color: var(--royalblue);
 }
 
 nav > a:hover{
+    border-radius: 15px;
     background-color: var(--lightblue);
-    color: var(--mediumblue);
-    padding: 7px;
+    color: var(--darkblue);
+    font-weight: bold;
 }
 
 p{
@@ -94,6 +99,10 @@ strong{
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: var(--darkblue);
     color: white;
@@ -101,20 +110,9 @@ footer{
 }
 
 nav > a{
-   padding: 5px;
-   text-align: center;
-   display: inline-block;
-}
-
-li a{
-    color: var(--royalblue);
-    font-weight: bold;
-}
-
-main a{
-    display: inline;
-}
-
+    padding: 5px;
+    display: inline-block;
+ }
 
 .principal{
     font-family: 'Great Vibes';
