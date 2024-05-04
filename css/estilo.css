@@ -51,6 +51,13 @@ h1{
     margin: 10px;
 }
 
+h2{
+    color: var(--darkblue);
+    text-shadow: 1px 1px 1px var(--mediumblue);
+    padding: 10px;
+    margin: 10px;
+}
+
 nav{
     max-width: 75%;
     background-color: var(--darkblue);
